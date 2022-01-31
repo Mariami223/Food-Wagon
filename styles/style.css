@@ -1,0 +1,19 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th,
+td {
+  background-color: rgb(183, 215, 237);
+}
+
+h1 {
+  color: rgb(136, 65, 65);
+}
+h2 {
+  color: rgb(71, 120, 175);
+}
+h3 {
+  color: rgb(226, 132, 104);
+}
