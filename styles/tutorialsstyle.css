@@ -1,0 +1,61 @@
+body {
+  background-image: url(https://www.maavan.com/images/banner%20image.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px;
+}
+h1 {
+  text-align: center;
+  color: rgb(11, 112, 73);
+}
+#example1 {
+  border: 6px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  display: inline-block;
+  margin: 30px;
+  width: 500px;
+  border-color: rgb(180, 41, 118);
+}
+#example2 {
+  border: 6px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  margin: 40px;
+  width: 300px;
+  float: right;
+  border-color: rgb(54, 214, 134);
+}
+#example3 {
+  border: 6px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  display: inline-block;
+  margin: 10px;
+  margin-top: 60px;
+  width: 500px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-color: rgb(247, 182, 97);
+}
+#example4 {
+  border: 6px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  display: inline-block;
+  margin-top: 200px;
+  width: 800px;
+  height: 350px;
+  border-color: rgb(135, 106, 182);
+}
+#example5 {
+  border: 6px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  margin: 15px;
+  margin-top: 1px;
+  width: 300px;
+  height: 600px;
+  float: right;
+  border-color: rgb(205, 231, 255);
+}
