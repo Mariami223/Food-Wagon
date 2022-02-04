@@ -8,8 +8,8 @@ h1 {
   text-align: center;
   color: rgb(11, 112, 73);
 }
-#example1 {
-  border: 6px solid;
+.example1 {
+  border: 6px dotted;
   padding: 10px;
   box-shadow: 5px 10px #888888;
   display: inline-block;
@@ -17,8 +17,8 @@ h1 {
   width: 500px;
   border-color: rgb(180, 41, 118);
 }
-#example2 {
-  border: 6px solid;
+.example2 {
+  border: 6px dotted;
   padding: 10px;
   box-shadow: 5px 10px #888888;
   margin: 40px;
@@ -26,36 +26,40 @@ h1 {
   float: right;
   border-color: rgb(54, 214, 134);
 }
-#example3 {
-  border: 6px solid;
+.example3 {
+  border: 6px dotted;
   padding: 10px;
   box-shadow: 5px 10px #888888;
-  display: inline-block;
+  display: block;
   margin: 10px;
   margin-top: 60px;
-  width: 500px;
+  width: 400px;
+  height: 400px;
   padding: 10px;
   box-sizing: border-box;
   border-color: rgb(247, 182, 97);
 }
-#example4 {
-  border: 6px solid;
+.example4 {
+  border: 6px dotted;
   padding: 10px;
   box-shadow: 5px 10px #888888;
   display: inline-block;
-  margin-top: 200px;
-  width: 800px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  width: 500px;
   height: 350px;
   border-color: rgb(135, 106, 182);
 }
-#example5 {
-  border: 6px solid;
+.example5 {
+  border: 6px dotted;
   padding: 10px;
   box-shadow: 5px 10px #888888;
   margin: 15px;
   margin-top: 1px;
+  margin-bottom: 0;
+  margin-right: 30px;
   width: 300px;
-  height: 600px;
+  height: 400px;
   float: right;
   border-color: rgb(205, 231, 255);
 }
