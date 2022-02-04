@@ -1,3 +1,21 @@
+#scrollmenu {
+  background-color: rgb(181, 222, 255);
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#scrollmenu a {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#scrollmenu a:hover {
+  background-color: rgb(255, 239, 239);
+}
+
 table,
 th,
 td {
