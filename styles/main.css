@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-container > div {
+  display: flex;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.container {
+  display: flex;
+}
+h1 {
+  color: rgb(18, 105, 69);
+}
