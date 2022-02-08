@@ -35,3 +35,6 @@ h2 {
 h3 {
   color: rgb(226, 132, 104);
 }
+.sign-up {
+  display: inline-block;
+}
