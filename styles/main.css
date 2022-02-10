@@ -3,15 +3,21 @@
 @import "../styles/reset.css";
 
 .equipment {
-  border: 1px solid rgb(22, 22, 21);
   margin: 10px;
+  border: 2px solid rgb(8, 8, 8);
+  border-radius: 12px;
+  padding: 5px;
 }
 .trainers {
-  border: 1px solid rgb(22, 22, 21);
+  border: 2px solid rgb(8, 8, 8);
+  border-radius: 12px;
+  padding: 5px;
   margin: 10px;
 }
 .diet-plan {
-  border: 1px solid rgb(7, 7, 7);
+  border: 2px solid rgb(8, 8, 8);
+  border-radius: 12px;
+  padding: 5px;
   margin: 10px;
 }
 
@@ -41,4 +47,8 @@ p {
 }
 h1 {
   text-align: center;
+  color: rgb(221, 77, 33);
+}
+span {
+  color: rgb(221, 77, 33);
 }
