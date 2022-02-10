@@ -1,0 +1,14 @@
+header {
+  height: 60px;
+  background-color: rgb(21, 28, 31);
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  color: rgb(255, 251, 251);
+}
+
+header nav > div {
+  gap: 0 30px;
+}
