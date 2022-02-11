@@ -12,3 +12,16 @@ header a {
 header nav > div {
   gap: 0 30px;
 }
+footer {
+  margin-top: 60px;
+}
+
+footer h1 {
+  color: beige;
+  font-family: "Times New Roman", Times, serif;
+}
+footer p {
+  color: rgb(209, 211, 212);
+  margin-top: 10px;
+  padding-top: 5px;
+}
