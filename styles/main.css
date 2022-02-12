@@ -1,6 +1,7 @@
 @import "../styles/flexbox.css";
 @import "../styles/header.css";
 @import "../styles/reset.css";
+@import "../styles/footer.css";
 
 .equipment {
   margin: 10px;

@@ -1,0 +1,45 @@
+.footer-container {
+  background-color: rgb(21, 28, 31);
+  padding-bottom: 4rem;
+  margin-top: 50px;
+}
+
+.footer {
+  width: 80%;
+  height: 40vh;
+  background-color: rgb(21, 28, 31);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+  margin-top: 15px;
+}
+
+.footer-headinf h2 {
+  margin-bottom: 2rem;
+}
+
+.footer-heading a {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+  color: rgb(202, 138, 77);
+}
+
+.footer-email-form {
+  margin-top: 15px;
+}
+
+.footer input {
+  margin-top: 15px;
+}
