@@ -2,7 +2,13 @@
 @import "../styles/header.css";
 @import "../styles/reset.css";
 @import "../styles/footer.css";
+@import "../styles/cards.css";
+@import "../styles/card.css";
 
+.part1 {
+  width: 992px;
+  height: 620px;
+}
 .equipment {
   margin: 10px;
   border: 2px solid rgb(8, 8, 8);
@@ -27,10 +33,10 @@
   background-color: black;
   color: aliceblue;
 }
-
+/* 
 .media {
   margin: 60px;
-}
+} */
 
 .centered {
   position: absolute;
@@ -43,6 +49,7 @@
   position: relative;
   text-align: center;
   color: white;
+  height: 600px;
 }
 
 .sale-p {
@@ -53,6 +60,7 @@ p {
   padding: 10px;
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 20px;
+  color: aliceblue;
 }
 h1 {
   text-align: center;
@@ -64,8 +72,14 @@ span {
 }
 .offers {
   color: rgb(230, 160, 70);
-  margin-top: 550px;
-  margin-bottom: 60px;
   font-size: 60px;
   font-family: "Open Sans Condensed", sans-serif;
+  height: 126px;
+}
+.ourgallery {
+  height: 70px;
+}
+
+.ourteam {
+  height: 89px;
 }

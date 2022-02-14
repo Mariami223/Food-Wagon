@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,8 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Redressed&display=swap"
       rel="stylesheet"
     />
+
     <title>My Fitness Route</title>
   </head>
+
   <body>
     <header class="d-flex align-items-center">
       <nav class="container d-flex justify-content-between">
@@ -34,8 +37,9 @@
         </div>
       </nav>
     </header>
+    <div class="part1 d-flex align-items-center container"></div>
 
-    <h1 class="offers" id="section2">What We Offer</h1>
+    <h1 class="offers container" id="section2">What We Offer</h1>
     <div class="d-flex container">
       <div class="equipment">
         <h1>Modern Equipment</h1>
@@ -68,6 +72,47 @@
         </p>
       </div>
     </div>
+  
+    <h1 class="container offers ourteam">Meet Our Team</h1>
+
+    <section class="container1">
+      <div class="card">
+        <div class="card-image coach-1"></div>
+        <h1>Isabella Smith</h1>
+        <p>
+          Isabella is a certified personal trainer, an online female fitness
+          trainer and an inspiring nutritional therapy practitioner.
+        </p>
+        <div class="social-media container1">
+          <img src="./icons/heart-attack.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image coach-2"></div>
+        <h1>David Johnson</h1>
+        <p>
+          David is one of the strongest bodybuilders of all time.He won 11 pro
+          contests, finished third in the Olympia twice and was second in the
+          Arnold Classic six years in a row.
+        </p>
+        <div class="social-media container1">
+          <img src="icons/dumbbell (1).png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image coach-3"></div>
+        <h1>Mia Wilson</h1>
+        <p>
+          Mia is an award-winning personal trainer with a huge fan following
+          from all around the world. She is also a nutritionist, fitness
+          expert, and social media influencer.
+        </p>
+        <div class="social-media container1">
+          <img src="./icons/dumbbell.png" />
+        </div>
+      </div>
+    </section>
+
     <div class="container image-container">
       <img
         class="media"
@@ -83,7 +128,7 @@
         </p>
       </div>
     </div>
-    <h1 class="container" id="section3">Our Gallery</h1>
+    <h1 class="container ourgallery" id="section3">Our Gallery</h1>
     <div class="container d-flex align-items-center">
       <div class="container d-flex flex-wrap justify-content-between gap">
         <img src="./images/gallery1.jpeg" alt="" width=300px" height="200px" />
@@ -97,7 +142,10 @@
         /><img src="./images/gallery8.jpeg" alt=""width=300px" height="200px" />
       </div>
     </div>
-    <div class="footer-container ">
+
+    
+
+      <div class="footer-container ">
       <div class="footer ">
         <div class="footer-heading footer-1">
           <h2>About Us</h2>
@@ -126,7 +174,6 @@
           <input type="email" placeholder="Enter Your Email Address" id="footer-email">
           <input type="submit" value="Sign Up" id="footer-email-btn">
         </div>
-        
     </div>
   </body>
 </html>
