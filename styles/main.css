@@ -6,7 +6,7 @@
 @import "../styles/card.css";
 
 .part1 {
-  width: 992px;
+  width: 100%;
   height: 620px;
   background-image: url(https://www.muscleandfitness.com/wp-content/uploads/2019/07/Hands-Clapping-Chaulk-Kettlebell.jpg?quality=86&strip=all);
   background-repeat: no-repeat;
