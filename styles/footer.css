@@ -1,45 +1,21 @@
-.footer-container {
-  background-color: rgb(21, 28, 31);
-  padding-bottom: 4rem;
-  margin-top: 50px;
-}
-
 .footer {
-  width: 80%;
-  height: 40vh;
-  background-color: rgb(21, 28, 31);
-  color: #fff;
-  display: flex;
+  width: 100%;
+  height: 194.89px;
+  background-color: rgb(19, 18, 18);
+  align-items: center;
+  margin-top: 80px;
+  background-color: rgb(212, 212, 212);
+}
+
+.social-icons {
+  height: 70px;
+  align-items: center;
+}
+
+.footer-middle {
   justify-content: center;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
-
-.footer-heading {
-  display: flex;
-  flex-direction: column;
-  margin-right: 4rem;
-  margin-top: 15px;
-}
-
-.footer-headinf h2 {
-  margin-bottom: 2rem;
-}
-
-.footer-heading a {
-  color: #fff;
-  margin-bottom: 0.5rem;
-}
-
-.footer-heading a:hover {
-  color: rgb(202, 138, 77);
-}
-
-.footer-email-form {
-  margin-top: 15px;
-}
-
-.footer input {
-  margin-top: 15px;
+.footer-middle a:hover {
+  color: rgb(148, 77, 10);
 }
