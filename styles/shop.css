@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: brown;
+}
+
+.media {
+  background-image: url(../images/jewlery.webp);
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  gap: 100px;
+  background-color: rgb(42, 44, 42);
+  color: white;
+}
+
+.grid-column-template {
+  grid-template-columns: auto auto auto;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 30px;
+}
+
+.register {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  /* gap: 40px; */
+  /* padding: 10px; */
+}
+h2 {
+  font-size: 60px;
+  font-family: "Shizuru", cursive;
+}
+
+.story {
+  display: grid;
+  grid-template-rows: 100px auto;
+  background-color: #a25528;
+  text-align: center;
+  padding: 50px;
+}
