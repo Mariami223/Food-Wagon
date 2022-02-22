@@ -4,6 +4,12 @@
   margin-top: 250px;
 }
 
+@media (max-width: 576px) {
+  .footer-container {
+    margin-top: 400px;
+  }
+}
+
 .map-container {
   width: 646px;
   height: 350px;

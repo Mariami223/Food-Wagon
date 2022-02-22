@@ -17,6 +17,12 @@
   box-shadow: 5px 10px rgb(192, 190, 190);
 }
 
+@media (max-width: 576px) {
+  .shop-container {
+    gap: 30px;
+  }
+}
+
 .coffee h2 {
   font-family: "Josefin Sans", sans-serif;
 }
