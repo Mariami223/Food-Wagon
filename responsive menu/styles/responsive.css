@@ -1,0 +1,64 @@
+/* laptops */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 768px;
+  }
+}
+
+/* tablets */
+@media sreen and (max-width: 768px) {
+  .container {
+    width: 576px;
+  }
+}
+
+/* mobile phones */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+
+  .auth-form-container {
+    margin-top: 285px;
+  }
+
+  header {
+    position: relative;
+  }
+
+  header .mobile-menu {
+    display: flex;
+    gap: 0 7px;
+    cursor: pointer;
+  }
+  header nav {
+    display: none;
+  }
+  header nav.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(63, 64, 65);
+    width: 100%;
+    top: 100%;
+    left: 0;
+    padding-block: 15px;
+  }
+  header nav.active > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header nav.active a {
+    padding: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.12);
+  }
+  header nav.active > div:last-child a:last-child {
+    border-bottom: 0;
+  }
+
+  footer {
+    height: initial;
+  }
+}

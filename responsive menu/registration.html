@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <title>რეგისტრაცია</title>
+  </head>
+  <body>
+    <header class="d-flex">
+      <div class="container d-flex">
+        <a href="#">
+          <img class="logo" src="./logo.png" alt="logo" width="32px" />
+        </a>
+        <nav class="active">
+          <div>
+            <a href="#">მთავარი</a>
+            <a href="#">დახმარება</a>
+            <a href="#">ბლოგი</a>
+            <a href="#">წესები</a>
+            <a href="#">კონტაქტი</a>
+          </div>
+          <div>
+            <a href="./registration.html">რეგისტრაცია</a>
+            <a href="./auth.html">შესვლა</a>
+          </div>
+        </nav>
+           <div class="mobile-menu">
+          <span>მენიუ</span>
+          <img src="./menu.png" alt="barlogo" />
+        </div>
+      </div>
+      </div>
+    </header>
+
+    <div class="container body-container">
+      <div class="auth-form-container">
+        <form action="" method="get">
+          <div class="form-group">
+            <label class="text-input-label" for="firstName"> სახელი</label>
+            <input
+              class="text-input"
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="ჩაწერეთ თქვენი სახელი"
+            />
+          </div>
+          <div class="form-group">
+            <label class="text-input-label" for="lastName"> გვარი</label>
+            <input
+              class="text-input"
+              type="text"
+              name="lasttName"
+              id="lasttName"
+              placeholder="ჩაწერეთ თქვენი გვარი"
+            />
+          </div>
+          <div class="form-group">
+            <label class="text-input-label" for="userEmail"
+              >მომხმარებლის ელ-ფოსტა</label
+            >
+            <input
+              class="text-input"
+              type="email"
+              name="email"
+              placeholder="ჩაწერეთ თქვენი ელ-ფოსტა"
+            />
+          </div>
+
+          <div class="form-group">
+            <label class="text-input-label" for="birthDate">
+              დაბადების თარიღი</label
+            >
+            <input
+              class="text-input"
+              type="date"
+              name="birthDate"
+              id="birthDate"
+              placeholder=""
+            />
+          </div>
+
+          <div class="form-group">
+            <label class="text-input-label" for="birthlocation">
+              დაბადების ადგილი</label
+            >
+            <select class="location">
+              <option>საქართველო</option>
+              <option>საბერძნეთი</option>
+              <option>აშშ</option>
+              <option>დიდი ბრიტანეთი</option>
+              <option>ესპანეთი</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <div class="gender-container">
+              <input type="radio" name="gender" id="male" />
+              <label for="male">კაცი</label>
+            </div>
+            <div class="gender-container">
+              <input type="radio" name="gender" id="female" />
+              <label for="female">ქალი</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="text-input-label" for="pass">პაროლი</label>
+            <input class="text-input" type="password" name="pass" id="pass" />
+          </div>
+
+          <div class="form-group">
+            <label class="text-input-label" for="passReplay"
+              >გაიმეორე პაროლი</label
+            >
+            <input
+              class="text-input"
+              type="password"
+              name="passReplay"
+              id="pass"
+            />
+          </div>
+
+          <button class="btn btn-primary w-100 mb-15">რეგისტრაცია</button>
+          <a class="btn btn-link" href="./auth.html">ავტორიზაცია</a>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>
+          შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული
+          ნაწარმის შემქმნელებს.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
