@@ -1,0 +1,144 @@
+@media screen and (max-width: 992px) {
+  .menu-item-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-col {
+    width: 20%;
+  }
+  .footer-col h4 {
+    font-weight: 400;
+  }
+  #footer-email {
+    font-size: 11px;
+    text-align: center;
+  }
+  .offer-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .footer-email-form {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #footer-email {
+    width: 100%;
+    padding: 0;
+    font-size: 14px;
+  }
+  #footer-email-btn {
+    width: 100%;
+  }
+  .offer-container {
+    width: 576px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  header {
+    justify-content: space-between;
+  }
+  .mobile-menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+  }
+  .offer-container {
+    flex-direction: column;
+  }
+  .footer-col {
+    width: 50%;
+  }
+  .footer-col:last-child {
+    margin-inline: auto;
+  }
+  .form-field .date {
+    width: 30%;
+  }
+}
+.footer-email-form {
+  align-items: center;
+}
+#footer-email {
+  width: 80%;
+}
+#footer-email-btn {
+  width: 80%;
+}
+.offer-container {
+  width: 85%;
+}
+
+@media screen and (max-width: 576px) {
+  .menu-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+  .menu-container p:hover {
+    padding: 1px;
+    transition: none;
+  }
+  .previous-next img {
+    width: 30px;
+  }
+  .blog-post h1 {
+    font-size: 18px;
+  }
+  .blog-post p {
+    font-size: small;
+    padding: 0px;
+  }
+  .post-content p:hover {
+    border-radius: 70px;
+  }
+  .footer-col {
+    width: 100%;
+  }
+  #footer-email {
+    width: 50%;
+  }
+  #footer-email-btn {
+    width: 50%;
+  }
+  .footer-email-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .offer-container {
+    width: 368px;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  header {
+    padding: 0;
+  }
+  .offer-container img {
+    width: 100px;
+  }
+  .post-content p {
+    display: none;
+  }
+  .post-content h1 {
+    font-size: 15px;
+  }
+  .previous-next img {
+    width: 20px;
+  }
+  #footer-email {
+    width: 50%;
+  }
+  #footer-email-btn {
+    width: 50%;
+  }
+}
