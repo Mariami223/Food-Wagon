@@ -116,10 +116,6 @@
 }
 
 @media screen and (max-width: 368px) {
-  header {
-    justify-content: center;
-    padding: 20px 0;
-  }
   .offer-container {
     padding: 40px 0;
     font-size: 13px;
